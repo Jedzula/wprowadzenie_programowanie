@@ -14,7 +14,9 @@ public class TextFromUser {
         System.out.println("How old are you?");
         int userage = sc.nextInt();
 
-        System.out.println("Hello " + username + " " + usersurname + ". You have " + userage + " years old.");
+        int future = userage + 5;
+
+        System.out.println("Hello " + username + " " + usersurname + ". In five years you will be " + future + " years old.");
     }
 
 
